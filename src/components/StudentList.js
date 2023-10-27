@@ -21,7 +21,7 @@ const ListItems=()=>{
     })
 }
     return (
-        <table style={{maxWidth:"95%",margin:"50px auto"}} class="table table-borderd table-striped table-dark text-light ">
+        <table style={{maxWidth:"95%",margin:"50px auto"}} class="table table-borderd table-striped table-dark text-light justify-content-center ">
             <thead>
                 <tr>
                     <th >Name</th>

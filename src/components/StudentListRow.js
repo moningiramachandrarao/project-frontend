@@ -23,8 +23,8 @@ function StudentListRow(props)
             <td>{name}</td>
             <td>{email}</td>
             <td>{rollno}</td>
-            <td class="d-flex justify-content-center">
-            <Link class="text-decoration-none text-light me-4" to={"/edit-student/" + _id}>
+            <td class="d-flex ">
+            <Link class="text-decoration-none text-light me-1" to={"/edit-student/" + _id}>
 
                 <button class="btn btn-success">
                     Edit
